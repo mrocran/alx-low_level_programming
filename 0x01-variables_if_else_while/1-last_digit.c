@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main – This program will assign a random number to the variable n each time it is executed 
+ * main - get last digit of a number.
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -12,15 +12,15 @@ int main(void)
 	int ld;
 
 	srand(time(0));
-	n=rand() - RAND_MAX/2;
-        ld = n % 10;
+	n = rand() - RAND_MAX / 2;
+	ld = n % 10;
 	if (ls > 5)
-		{
-		printf("Last digit of %d is %d and is greater than 5\n", n, ld);
-		}
-	else if (ld = 0)
 	{
-	printf("Last digit of %d is %d and is greater than 0\n", n, ld)
+	printf("Last digit of %d is %d and is greater than 5\n", n, ld);
+	}
+	else if (ld == 0)
+	{
+	printf("Last digit of %d is %d and is greater than 0\n", n, ld);
 	}
 	else
 	{
