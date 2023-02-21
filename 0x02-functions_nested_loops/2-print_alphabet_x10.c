@@ -4,7 +4,7 @@
  * print_alphabet_x10 - prints alphabet 10 times.
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 
 	int ten;
@@ -15,6 +15,7 @@ void print_alphabet_x10(void);
 
 		for (lc = 'a'; lc <= 'z'; lc++)
 		{
+
 			_putchar(lc);
 		}
 	_putchar('\n');
