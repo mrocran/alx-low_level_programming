@@ -19,7 +19,7 @@ void times_table(void)
 
 			if (prod <= 9)
 			{
-				_put(' ')'
+				_put(' ');
 			}
 			else
 			{
